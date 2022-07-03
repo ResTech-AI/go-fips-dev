@@ -24,6 +24,8 @@ ENV PATH="$GOROOT/bin:$PATH"
 
 # Install development dependencies and git
 RUN microdnf update && microdnf install -y \
+gzip \
+tar \
 gcc \
 git \
 make \
