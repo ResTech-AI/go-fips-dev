@@ -7,7 +7,7 @@ This project is to proivde a docker container that provides `vs-code` based gola
 ## Usage
 ```bash
 # Build the image
-sudo docker build . --rm -t localhost/boring-go-dev  --build-arg GOLANG_VERSION=1.18.3b7
+sudo docker build . --rm -t localhost/boring-go-dev:1.18.3b7  --build-arg GOLANG_VERSION=1.18.3b7
 
 # Run the container
 sudo docker run --rm -dt localhost/boring-go-dev:1.18.3b7
